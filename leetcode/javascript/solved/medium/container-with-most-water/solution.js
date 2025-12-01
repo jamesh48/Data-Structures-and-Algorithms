@@ -6,30 +6,29 @@
  * @param {number[]} height
  * @return {number}
  */
-var maxArea = function (height) {
-    let ptrA = 0
-    let ptrB = height.length - 1
-    let result = -Infinity
+const _maxArea = (height) => {
+	let ptrA = 0;
+	let ptrB = height.length - 1;
+	let result = -Infinity;
 
-    while (ptrB > ptrA) {
-        const maxFillHeight = Math.min(height[ptrA], height[ptrB])
-        const maxFillWidth = ptrB - ptrA
-        const maxFill = maxFillHeight * maxFillWidth
+	while (ptrB > ptrA) {
+		const maxFillHeight = Math.min(height[ptrA], height[ptrB]);
+		const maxFillWidth = ptrB - ptrA;
+		const maxFill = maxFillHeight * maxFillWidth;
 
-        if (maxFill > result) {
-            result = maxFill
-        }
-        if (height[ptrA] < height[ptrB]) {
-            ptrA = ptrA + 1
-        } else if (height[ptrB] < height[ptrA]) {
-            ptrB = ptrB - 1
-        } else {
-            ptrB = ptrB - 1
-        }
-    }
+		if (maxFill > result) {
+			result = maxFill;
+		}
+		if (height[ptrA] < height[ptrB]) {
+			ptrA = ptrA + 1;
+		} else if (height[ptrB] < height[ptrA]) {
+			ptrB = ptrB - 1;
+		} else {
+			ptrB = ptrB - 1;
+		}
+	}
 
-    return result
-
+	return result;
 };
 
 // need to find the maximum height where ptrA is at least as high as ptrB and vice versa
