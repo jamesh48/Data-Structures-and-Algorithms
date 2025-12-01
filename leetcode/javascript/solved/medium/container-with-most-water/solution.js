@@ -1,6 +1,7 @@
-// Leetcode #11
+// Leetcode #11, 12/1/2025
 // https://leetcode.com/problems/container-with-most-water/
-// Solved in 16.5 Minutes
+// Solved in 16.5 Minutes with all hints
+//  I think there is a greedy solution, but this is fine for now
 
 /**
  * @param {number[]} height
