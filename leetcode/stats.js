@@ -1,13 +1,15 @@
 const fs = require('fs').promises;
 
 (async () => {
-  const easyJSFiles = await fs.readdir('./javascript/solved/easy');
-  const mediumJSFiles = await fs.readdir('./javascript/solved/medium');
-  const hardJSFiles = await fs.readdir('./javascript/solved/hard');
+  const filterGitkeep = (files) => files.filter(f => f !== '.gitkeep');
 
-  const easyPyFiles = await fs.readdir('./python/solved/easy');
-  const mediumPyFiles = await fs.readdir('./python/solved/medium');
-  const hardPyFiles = await fs.readdir('./python/solved/hard');
+  const easyJSFiles = filterGitkeep(await fs.readdir('./javascript/solved/easy'));
+  const mediumJSFiles = filterGitkeep(await fs.readdir('./javascript/solved/medium'));
+  const hardJSFiles = filterGitkeep(await fs.readdir('./javascript/solved/hard'));
+
+  const easyPyFiles = filterGitkeep(await fs.readdir('./python/solved/easy'));
+  const mediumPyFiles = filterGitkeep(await fs.readdir('./python/solved/medium'));
+  const hardPyFiles = filterGitkeep(await fs.readdir('./python/solved/hard'));
 
   const jsTotal = easyJSFiles.length + mediumJSFiles.length + hardJSFiles.length;
   const pyTotal = easyPyFiles.length + mediumPyFiles.length + hardPyFiles.length;
