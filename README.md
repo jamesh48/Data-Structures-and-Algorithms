@@ -7,8 +7,8 @@ A collection of data structures and algorithm solutions, primarily focused on Le
 | Language | Easy | Medium | Hard | Total |
 |----------|------|--------|------|-------|
 | JavaScript | 97 | 10 | 1 | 108 |
-| Python | 13 | 0 | 0 | 13 |
-| **Total** | **110** | **10** | **1** | **121** |
+| Python | 14 | 0 | 0 | 14 |
+| **Total** | **111** | **10** | **1** | **122** |
 
 ---
 
