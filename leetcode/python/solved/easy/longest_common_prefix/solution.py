@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/longest-common-prefix/description/
 
 class TrieNode:
     def __init__(self):
