@@ -11,7 +11,7 @@ var countPermutations = function (complexity) {
     for (let i = 1; i < complexity.length; i++) {
         if (complexity[0] >= complexity[i]) {
             return 0
-        } else if (i >= 2) {
+        } else {
             result = (result * i) % 1000000007
         }
     }

@@ -1,4 +1,4 @@
 ## Leetcode Stats
-###### JS Easy Solved: 95
-###### JS Medium Solved: 9
+###### JS Easy Solved: 97
+###### JS Medium Solved: 10
 ###### JS Hard Solved: 1
