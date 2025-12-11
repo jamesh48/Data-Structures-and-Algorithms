@@ -4,11 +4,11 @@ A collection of data structures and algorithm solutions, primarily focused on Le
 
 ## LeetCode Solutions
 
-| Language | Easy | Medium | Hard | Total |
-|----------|------|--------|------|-------|
-| JavaScript | 97 | 10 | 1 | 108 |
-| Python | 14 | 0 | 0 | 14 |
-| **Total** | **111** | **10** | **1** | **122** |
+| Language | Easy | Medium | Hard | Solved | Attempted |
+|----------|------|--------|------|--------|-----------|
+| JavaScript | 97 | 10 | 1 | 108 | 7 |
+| Python | 14 | 0 | 0 | 14 | 0 |
+| **Total** | **111** | **10** | **1** | **122** | **7** |
 
 ---
 
