@@ -6,9 +6,9 @@ A collection of data structures and algorithm solutions, primarily focused on Le
 
 | Language | Easy | Medium | Hard | Solved | Attempted |
 |----------|------|--------|------|--------|-----------|
-| JavaScript | 98 | 10 | 1 | 109 | 7 |
+| JavaScript | 98 | 11 | 1 | 110 | 7 |
 | Python | 14 | 0 | 0 | 14 | 0 |
-| **Total** | **112** | **10** | **1** | **123** | **7** |
+| **Total** | **112** | **11** | **1** | **124** | **7** |
 
 ---
 
